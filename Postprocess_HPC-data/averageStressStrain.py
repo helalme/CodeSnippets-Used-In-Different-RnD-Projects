@@ -15,7 +15,7 @@ if __name__ == "__main__":
     path=None
     Ofiles=None
     
-    '''
+    
     # User will run this script from command line, e.g. "pythons3 averageStressStrain.py O10grains_0001 8"
     if len(sys.argv)==1:
             print("InputError: Path for input data is missing.")
@@ -35,13 +35,12 @@ if __name__ == "__main__":
         #print(1)
 
     '''
-	
     # If the program is not run from command line
     path = cwd + '/O10grains_0001'
     Ofiles = 8
     with open(path)as f:
         stringList=f.read().split()
-	
+    ''' 	
 
     # Extracting Stress and strain components  at each time step     
     timeStrainStress=[]
