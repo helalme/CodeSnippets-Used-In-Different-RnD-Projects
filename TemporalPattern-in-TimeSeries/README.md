@@ -18,9 +18,13 @@ For example, if you want get the maximum possible sum of a list given in 'input_
 Similarly, you can type "python find_subsequence.py data/input_1.txt 5 values" or "python find_subsequence.py data/input_1.txt 5 differences". Please have a look at few more example below:
 
 \$ python find_subsequence.py data/input_1.txt 9 values
+
 \>> 6
+
 \$ python find_subsequence.py data/input_1.txt 4 differences
+
 \>> 16
+
 $python find_subsequence.py data/input_2.txt 10 values
 >> 27
 $python find_subsequence.py data/input_2.txt 5 differences
