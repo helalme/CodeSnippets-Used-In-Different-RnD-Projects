@@ -21,11 +21,11 @@ Similarly, you can type "python find_subsequence.py data/input_1.txt 5 values" o
 \>> 6\
 \$ python find_subsequence.py data/input_1.txt 4 differences\
 \>> 16\
-\$python find_subsequence.py data/input_2.txt 10 values\
+\$ python find_subsequence.py data/input_2.txt 10 values\
 \>> 27\
-\$python find_subsequence.py data/input_2.txt 5 differences\
+\$ python find_subsequence.py data/input_2.txt 5 differences\
 \>> 58\
-\$python find_subsequence.py data/input_3.txt 30 values\
+\$ python find_subsequence.py data/input_3.txt 30 values\
 \>> 44\
-\$python find_subsequence.py data/input_3.txt 10 differences\
+\$ python find_subsequence.py data/input_3.txt 10 differences\
 \>> 40
