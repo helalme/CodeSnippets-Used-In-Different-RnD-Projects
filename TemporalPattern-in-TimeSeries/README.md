@@ -17,10 +17,10 @@ use the word 'differences' for problem-3. The command to run the program would b
 For example, if you want get the maximum possible sum of a list given in 'input_1.txt', type in the command line "python find_subsequence.py data/input_1.txt".
 Similarly, you can type "python find_subsequence.py data/input_1.txt 5 values" or "python find_subsequence.py data/input_1.txt 5 differences". Please have a look at few more example below:
 
-$ python find_subsequence.py data/input_1.txt 9 values
->> 6
-$ python find_subsequence.py data/input_1.txt 4 differences
->> 16
+\$ python find_subsequence.py data/input_1.txt 9 values
+\>> 6
+\$ python find_subsequence.py data/input_1.txt 4 differences
+\>> 16
 $python find_subsequence.py data/input_2.txt 10 values
 >> 27
 $python find_subsequence.py data/input_2.txt 5 differences
