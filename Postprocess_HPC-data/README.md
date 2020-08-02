@@ -12,3 +12,7 @@ and will make average over all 'O' files located in the same folder (e.g. 8 Ofil
 #### averageStressStrain.py:
 this is the main python code (serial version) that reads all Ofiles, extracts stress and strain components along 33 direction at each time step and save the result into the text file 'avgStrainStress.txt'.
 The result is plotted with matplotlib and shown in the .PNG file.
+
+##### How to Use:
+To run the script (AverageStressStrain.py), cd the right directory, run the program with the command:
+'python3 1st_Ofiles numberOfCores'. For example, "python3 O10grains_0001 8". Since the code will analyse 8 Ofiles that's why numberOfCores=8
